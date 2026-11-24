@@ -170,4 +170,6 @@ Docling's models load offline (`HF_HUB_OFFLINE=1`). On a new machine, set `HF_HU
 | Merge holdings and factsheets into one JSON | Run `python merge_portfolio_factsheet.py` (repo root), optionally with `--year 2026` and/or `--month SEP`. It writes `output/merged/merged.json`: each fund gets `fund_manager` (its tenures), and each month gets `AUM` (month-end, Rs crore) and `portfolio` (the holdings). Months are joined on SIF code and the month the data is as on. It also writes `coverage.csv`, showing what each fund-month has. `ingestion-pipeline/neo4j_parser.py --input output/merged/merged.json` loads it. |
 | Strategy printed under another name | Add a row to `factsheet_scheme_alias.csv` (`fund_house, factsheet_name, scheme_code`) |
 | Manager printed under several spellings | Add a row to `factsheet_manager_alias.csv` (`fund_house, printed_name, manager_name`) |
-| New layout for the rules | Add a `@rule(...)` function to `rules/sif.py` and check it with `rules_eval.py` |
+| New layout for the rules | Add a `@rule(...)` function to `rules/sif.py` and check it with `rules_eval.py` done |
+
+
