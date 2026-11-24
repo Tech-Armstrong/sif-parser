@@ -1,0 +1,44 @@
+# Secrets (Azure OpenAI, Neo4j credentials)
+.env
+.env.*
+
+# Python virtual environments
+venv/
+.venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Excel lock files left while a workbook is open
+~$*
+
+# Source data: factsheet PDFs and portfolio workbooks (kept locally, not in git)
+data/
+archive/
+*.pdf
+*.xls
+*.xlsx
+*.xlsb
+
+# Generated outputs (rebuilt by the parsers; matches output/ and factsheets/output/)
+output/
+
+# Editor / tool settings
+.vscode/
+.claude/
+.idea/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Reference workbooks the pipeline needs (exceptions to the *.xlsx rule above)
+!scheme_master_mapping/scheme_master.xlsx
+!scheme_master_mapping/sif_scheme_master.xlsx
+!market_cap_mapping/*/*.xlsx

@@ -1,0 +1,81 @@
+raw_industry,industry,sector,macro_economic_sector,note
+-,,,,
+364,,,,term-deposit tenor/rating leaked into industry column
+365,,,,term-deposit tenor/rating leaked into industry column
+366,,,,term-deposit tenor/rating leaked into industry column
+368,,,,term-deposit tenor/rating leaked into industry column
+369,,,,term-deposit tenor/rating leaked into industry column
+392,,,,term-deposit tenor/rating leaked into industry column
+Aerospace and Defense,Aerospace & Defense,Capital Goods,Industrials,
+Agricultural Commercial & Construction Vehicles,"Agricultural, Commercial & Construction Vehicles",Capital Goods,Industrials,
+Agricultural Food and other Product,Agricultural Food & other Products,Fast Moving Consumer Goods,Fast Moving Consumer Goods,
+"Agricultural, Commercial and Constr","Agricultural, Commercial & Construction Vehicles",Capital Goods,Industrials,
+AIF,,,,
+Alternative Investment Fund,,,,
+Aluminum,Non - Ferrous Metals,Metals & Mining,Commodities,commodity future/physical - mapped to underlying commodity industry
+BANKNIFTY,,,,
+Catalog/Specialty Distribution #,Retailing,Consumer Services,Consumer Discretionary,foreign equity (Amazon)
+Catalog/Specialty Distribution ##,Retailing,Consumer Services,Consumer Discretionary,
+CDMDF,,,,
+Computer Software: Prepackaged Software #,IT - Software,Information Technology,Information Technology,
+Computer Software: Prepackaged Software ##,IT - Software,Information Technology,Information Technology,
+"Computer Software: Programming, Data Processing #",IT - Software,Information Technology,Information Technology,
+"Computer Software: Programming, Data Processing ##",IT - Software,Information Technology,Information Technology,
+Consumer Services #,Retailing,Consumer Services,Consumer Discretionary,foreign equity (Amazon)
+Copper,Non - Ferrous Metals,Metals & Mining,Commodities,commodity future/physical - mapped to underlying commodity industry
+Crude Oil,Oil,"Oil, Gas & Consumable Fuels",Energy,commodity future/physical - mapped to underlying commodity industry
+Diversified Banks,Banks,Financial Services,Financial Services,
+Diversified Fmcg,Diversified FMCG,Fast Moving Consumer Goods,Fast Moving Consumer Goods,
+ETF Units,,,,
+Exchange Traded Fund,,,,
+Exchange Traded Funds,,,,
+FINANCE,Finance,Financial Services,Financial Services,
+Financial Services,,,,mixed: CSI 300 ETF and CDMDF units
+Financial Technology (FINTECH),Financial Technology (Fintech),Financial Services,Financial Services,
+Foreign Security,,,,
+Gas Utilities,Gas,"Oil, Gas & Consumable Fuels",Energy,commodity future/physical - mapped to underlying commodity industry
+Gold,Non - Ferrous Metals,Metals & Mining,Commodities,commodity future/physical - mapped to underlying commodity industry
+Index,,,,
+Index Futures,,,,
+INDEX FUTURES,,,,
+Index Options,,,,
+INDEX OPTIONS,,,,
+Industrial Gases,Chemicals & Petrochemicals,Chemicals,Commodities,SEBI basic industry under Chemicals & Petrochemicals
+Industrial Metals,Non - Ferrous Metals,Metals & Mining,Commodities,commodity future/physical - mapped to underlying commodity industry
+Industrials#,Electrical Equipment,Capital Goods,Industrials,foreign equity (Schneider Electric)
+Information Technology#,IT - Hardware,Information Technology,Information Technology,foreign equity (SK Hynix)
+Internet and Technology #,IT - Software,Information Technology,Information Technology,foreign equity (Microsoft/Alphabet/Meta)
+It - Services,IT - Services,Information Technology,Information Technology,
+It - Software,IT - Software,Information Technology,Information Technology,
+IT Consulting & Other Services,IT - Software,Information Technology,Information Technology,
+IT Services,IT - Services,Information Technology,Information Technology,
+Miscellaneous,,,,"mixed bucket (InvIT, NSDL, Bazaar Style ...)"
+Mutual Fund,,,,
+Mutual Fund Industry,,,,
+Mutual Funds,,,,
+NIFTY,,,,
+Nifty,,,,
+NIFTY29-02-2024,,,,
+Not Applicable,,,,AMC printed N.A. for small/delisted equities
+Oil & Gas,Oil,"Oil, Gas & Consumable Fuels",Energy,foreign equity (Petrobras)
+OIL Commodities,Oil,"Oil, Gas & Consumable Fuels",Energy,commodity future/physical - mapped to underlying commodity industry
+Others,,,,"mixed bucket (commodity futures, Broadcom)"
+Paper Forest & Jute Products,"Paper, Forest & Jute Products",Forest Materials,Commodities,
+Pharmaceuticals,Pharmaceuticals & Biotechnology,Healthcare,Healthcare,
+Power - Transmission,Power,Power,Utilities,SEBI basic industry (InvIT units)
+Precious Metals,Non - Ferrous Metals,Metals & Mining,Commodities,commodity future/physical - mapped to underlying commodity industry
+REIT,Realty,Realty,Consumer Discretionary,
+SHARE OPTIONS,,,,
+Silver,Non - Ferrous Metals,Metals & Mining,Commodities,commodity future/physical - mapped to underlying commodity industry
+Stock Future,,,,
+Stock Futures,,,,label carries no industry; take sector from the underlying's cash-equity row
+Tobacco,Cigarettes & Tobacco Products,Fast Moving Consumer Goods,Fast Moving Consumer Goods,
+Transport infrastructure,Transport Infrastructure,Services,Services,
+Units of Infrastructure Investment Trusts,,,,InvITs across telecom/road/power - no single sector
+Units of Real Estate Investment Trust (REITs),Realty,Realty,Consumer Discretionary,
+Unrated,,,,term-deposit tenor/rating leaked into industry column
+Warehousing,Transport Services,Services,Services,InvIT units of warehousing/logistics assets
+Wireless Telecommunication Services,Telecom - Services,Telecommunication,Telecommunication,
+Zinc,Non - Ferrous Metals,Metals & Mining,Commodities,commodity future/physical - mapped to underlying commodity industry
+Telecommunications Equipment,Telecom - Equipment & Accessories,Telecommunication,Telecommunication,SIF: iSIF (Orient Cables)
+Textiles & Apparel,Textiles & Apparels,Textiles,Consumer Discretionary,SIF: iSIF singular spelling (Kusumgar)
