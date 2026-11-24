@@ -1,0 +1,17 @@
+# Portfolio parser (sif_parser.py) and scheme master (scheme_master_mapping/build_sif_scheme_master.py)
+pandas>=2.0
+openpyxl>=3.1
+xlrd>=2.0.1      # legacy .xls disclosures
+python-dotenv>=1.0
+
+# Neo4j loader (ingestion-pipeline/neo4j_parser.py)
+neo4j>=5.0
+
+# Factsheets: fund managers and AUM (factsheets/factsheet_parser.py), same versions as historical-mf
+docling==2.143.0
+pypdfium2==5.14.0
+langgraph==1.2.18           # fund manager / AUM extraction agent (fund_extractor.py)
+langchain-openai==1.7.3     # GPT-5 on Azure OpenAI as the agent's model
+langchain-core==1.7.0
+openai==3.39.0
+pydantic>=2.0
